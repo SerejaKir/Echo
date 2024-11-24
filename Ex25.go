@@ -7,7 +7,7 @@ import (
 
 func main() {
 	n := "" 
-	fmt.Print("Enter data: ")
+	fmt.Print("Changed text - Enter data: ")
 	_, err := fmt.Scan(&n)
 	if err != nil {
 		log.Fatal(err)
