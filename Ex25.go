@@ -6,12 +6,12 @@ import (
 )
 
 func main() {
-	n := 0
+	n := "" 
 	fmt.Print("Enter integer: ")
-	_. err := fmt.Scan(&n)
+	_, err := fmt.Scan(&n)
 	if err != nil {
 		log.Fatal(err)
 	}
-	fmt.Printf("You have enter: %d\n", n)
+	fmt.Printf("You have enter: %v\n", n)
 }
 
