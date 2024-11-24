@@ -7,11 +7,11 @@ import (
 
 func main() {
 	n := "" 
-	fmt.Print("Enter integer: ")
+	fmt.Print("Enter data: ")
 	_, err := fmt.Scan(&n)
 	if err != nil {
 		log.Fatal(err)
 	}
-	fmt.Printf("You have enter: %v\n", n)
+	fmt.Printf("You have enter data: %v\n", n)
 }
 
